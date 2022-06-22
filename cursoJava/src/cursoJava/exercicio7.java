@@ -20,7 +20,7 @@ public class exercicio7 {
 			System.out.println("NEGATIVO");
 		}
 		else {
-			System.out.println("POSITIVO");
+			System.out.println("NÃO NEGATIVO");
 		}
 		
 		sc.close();

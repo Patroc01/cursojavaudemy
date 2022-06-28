@@ -1,26 +1,17 @@
 package cursoJava;
-import java.util.Scanner;
+
 
 public class Main {
-
 	public static void main(String[] args) {
+
+		double x = 100;
+		double y = 100;
 		
-		Scanner sc = new Scanner(System.in);
-		
-		int hora;
-		System.out.println("olá, que horas são?");
-		hora = sc.nextInt();
-		
-		if (hora < 12) {
-			System.out.println("bom dia");
+		while (x != y) {
+			System.out.println("olha");
+			x = Math.sqrt(y);
+
 		}
 		
-		else if (hora < 18){
-				System.out.println("boa tarde");
-				}
-			else {
-				System.out.println("boa noite");
-				}
-		sc.close();
-			}
 	}
+}

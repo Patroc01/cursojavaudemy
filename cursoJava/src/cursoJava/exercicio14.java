@@ -34,7 +34,7 @@ menos uma de duas coordenadas for NULA (nesta situação sem escrever mensagem alg
 				x = sc.nextInt();
 				y = sc.nextInt();
 			}
-			else (x >= 0 && y <= -1) {
+			else if (x >= 0 && y <= -1) {
 				System.out.println("quarto");
 				x = sc.nextInt();
 				y = sc.nextInt();
